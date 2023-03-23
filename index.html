@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- ==================BootStrap css ========================--- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Lora:ital,wght@0,400;0,500;0,600;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto+Slab:wght@700&family=Smooch&display=swap"
+        rel="stylesheet">
+
+    <title>Responsive clothing ecommerce - Bedimcode</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="btn">
+                        <a href="#home" class="nav__link">
+                            <!-- <i class="ri-home-line"></i> -->
+                            <!-- <span>Home</span> -->
+                            Home
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#new" class="nav__link">
+                            <i class="ri-price-tag-3-line"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#collection" class="nav__link">
+                            <i class="ri-compass-line"></i>
+                            <span>Overview</span>
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Mangement</span>
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Solution</span>
+                        </a>
+                    </li> -->
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Solution
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Get Involved
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <li class="btn">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Donate</span>
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#products" class="nav__link">
+                            <i class="ri-t-shirt-line"></i>
+                            <span>Partners</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Theme Change Button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <!-- <div class="in-up">
+                <a href="#" class="register">Log in</a>
+                <a href="#" class="register">Sign up</a>
+            </div> -->
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Clean Water and <br>
+                        Sanitation
+                    </h1>
+                    <p class="home__description">
+                        The access of clean water and air is basic right</p>
+                    <a href="#new" class="button__link">
+                        Explore
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="home__images">
+                    <img src="/assets/img/water.jpg" alt="">
+                    <img src="/assets/img/water1.webp" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section" id="new" style="padding: 4rem 0 4rem">
+            <h2 class="section__title">
+                About Water on earth
+            </h2>
+            <div>
+                <p style="margin: 0 90px 0 90px;">One factor in estimating when water appeared on Earth is that water is
+                    continually being lost to
+                    space. H2O molecules in the atmosphere are broken up by photolysis, and the resulting free hydrogen
+                    atoms can sometimes escape Earth's gravitational pull (see: Atmospheric escape). When the Earth was
+                    younger and less massive, water would have been lost to space more easily. Lighter elements like
+                    hydrogen and helium are expected to leak from the atmosphere continually, but isotopic ratios of
+                    heavier noble gases in the modern atmosphere suggest that even the heavier elements in the early
+                    atmosphere were subject to significant losses.[4] In particular, xenon is useful for calculations of
+                    water loss over time. Not only is it a noble gas (and therefore is not removed from the atmosphere
+                    through chemical reactions with other elements), but comparisons between the abundances of its nine
+                    stable isotopes in the modern atmosphere reveal that the Earth lost at least one ocean of water
+                    early in its history, between the Hadean and Archean eras.[5][clarification needed]
+
+                    Any water on Earth during the latter part of its accretion would have been disrupted by the
+                    Moon-forming impact (~4.5 billion years ago), which likely vaporized much of Earth's crust and upper
+                    mantle and created a rock-vapor atmosphere around the young planet.[6][7] The rock vapor would have
+                    condensed within two thousand years, leaving behind hot volatiles which probably resulted in a
+                    majority carbon dioxide atmosphere with hydrogen and water vapor. Afterward, liquid water oceans may
+                    have existed despite the surface temperature of 230 °C (446 °F) due to the increased atmospheric
+                    pressure of the CO2 atmosphere. As the cooling continued, most CO2 was removed from the atmosphere
+                    by subduction and dissolution in ocean water, but levels oscillated wildly as new surface and mantle
+                    cycles appeared.[8]</p>
+            </div>
+        </section>
+
+        <!--==================== COLLECTION ====================-->
+        <div>
+            <div class="counting">
+                <div class="counting__container box-1">
+                    <div class="inside">
+
+                    </div>
+                </div>
+                <div class="counting__container box-2">
+
+                    <div class="inside">
+
+                    </div>
+                </div>
+                <div class="counting__container box-3">
+
+                    <div class="inside">
+
+                    </div>
+                </div>
+                <div class="counting__container box-4">
+
+                    <div class="inside">
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="paragraph">We are a non-profit organization focused on <strong>alleviating the global water
+                        crisis</strong> by bringing clean
+                    water access and water-health and hygiene education programs to the world’s most impoverished
+                    communities.
+
+                    Our programs are focused on schools, children, and rural communities across the Asia-Pacific region
+                    and Latin America. Join us, and together we can abolish global water poverty one community at a
+                    time.</p>
+            </div>
+        </div>
+
+        <!--==================== PRODUCTS ====================-->
+        <div style="margin-top: 200px;">
+            <h2 class="section__title" style="font-size: 45px;">
+                WATER QUALITY SPECIFICATIONS
+            </h2>
+            <div>
+                <div class="counting our-works">
+                    <div class="counting__container box-1">
+                        <h3>Dissolved Oxygen</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>0 – 500.0% / 0 – 50.00 mg/L</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="counting__container box-2">
+                        <h3>Conductivity (EC)</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>0 – 200 mS/cm (0 – 200,000 µS/cm)</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="counting__container box-3">
+                        <h3>Resistivity*</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>5 Ωcm – 1 MΩcm</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="counting__container box-4">
+                        <h3>Salinity*</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>0 – 70 PSU / 0 – 70.00 ppt (g/Kg)</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="counting our-works">
+                    <div class="counting__container box-1">
+                        <h3>pH</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>0 – 14 pH / ± 625mV</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="counting__container box-2">
+                        <h3>Temperature</h3>
+                        <div class="inside">
+                            <h4>Range</h4>
+                            <p>-5°C – +70°C</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== BRANDS ====================-->
+            <section class="brand section">
+                <h2 class="section__title">
+                    Brand We Sell
+                </h2>
+                <div class="brand__container container grid">
+                    <img src="/assets/img/logo1.png" alt="logo" class="brand__img">
+                    <img src="/assets/img/logo2.png" alt="logo" class="brand__img">
+                    <img src="/assets/img/logo3.png" alt="logo" class="brand__img">
+                    <img src="/assets/img/logo4.png" alt="logo" class="brand__img">
+                </div>
+            </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    Shop.
+                </a>
+                <p class="footer__description">
+                    Committed to bringing you the <br>
+                    best clothing from popular <br>
+                    brands.
+                </p>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Category</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact info</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Blog
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Event</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Popular New</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">jRecent new</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Office
+                    </h3>
+                    <p class="footer__information">
+                        Monday - Saturday <br>
+                        9AM - 5PM
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Contact Us
+                    </h3>
+                    <ul class="footer__social">
+                        <a href="" class="footer__social-link" target="_blank">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="footer__social-link" target="_blank">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Sunny. All right reserved
+            </span>
+            <a href="#" class="footer__privacy">
+                Terms & Conditions
+            </a>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>
