@@ -101,3 +101,22 @@ sr.reveal(`.home__images`, {delay: 600, origin: 'botton'})
 sr.reveal(`.new__card, .brand__img`, {interval: 100})
 sr.reveal(`.collection__explore:nth-child(1)`, {origin: 'right'})
 sr.reveal(`.collection__explore:nth-child(2)`, {origin: 'left'})
+
+// show/hide faq answer
+
+const faqs = document.querySelectorAll(".faq");
+faqs.forEach(faq => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("open");
+
+    // change icon
+
+    const icon = faq.querySelector(".faq__icon i");
+    if (icon.className === "ri-add-line") {
+      icon.className = "ri-subtract-line";
+    }
+    else {
+      icon.className = "ri-add-line"
+    }
+  });
+});
