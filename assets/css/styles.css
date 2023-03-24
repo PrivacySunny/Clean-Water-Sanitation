@@ -407,19 +407,21 @@ body.dark-theme {
 
 /* ======================= hELPING WATER IN INDIA ======================= */
 
-.helping-water{
+.helping-water {
   margin: 10px;
   padding: 10px;
 }
-.helping-water .water-1{
+
+.helping-water .water-1 {
   display: flex;
   margin: 50px;
 }
 
-.helping-water .water-1 .about-water img{
+.helping-water .water-1 .about-water img {
   height: 100px;
   width: 195px;
 }
+
 /* ======================= hELPING WATER IN INDIA ======================= */
 
 /*=============== COLLECTION ===============*/
@@ -500,6 +502,9 @@ body.dark-theme {
   margin-left: 200px;
   margin-right: 200px;
 }
+
+/* ============== THIS IS FACE OF CLEAN WATER IN INDAI ================ */
+
 
 /*=============== Water Specification ===============*/
 .our-works {
@@ -592,6 +597,26 @@ body.dark-theme {
   width: 146px;
   cursor: pointer;
 }
+
+/* ============= Check Water Portabel ==================== */
+
+.Water-portable {
+  padding: 12px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.Water-portable .portable {
+  margin-top: 36px;
+  justify-content: center;
+}
+.Water-portable .portable .form-1 {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  /* width: 405px; */
+  justify-content: center;
+}
+
 
 /* ================= Parameter =============== */
 
