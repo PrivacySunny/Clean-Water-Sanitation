@@ -435,7 +435,7 @@ body.dark-theme {
 
 
 .counting {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
   gap: 0px;
   margin: 50px;
@@ -446,7 +446,7 @@ body.dark-theme {
   text-align: center;
   margin: 34px;
   cursor: pointer;
-  box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4);
+  /* box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4); */
   height: 240px;
   width: 100%;
 }
@@ -474,25 +474,26 @@ body.dark-theme {
 }
 
 .counting .box-1 {
-  background: var(--box-1);
+  /* background: var(--box-1); */
   border-radius: 14px;
 }
 
 .counting .box-2 {
 
-  background: var(--box-2);
+  /* background: var(--box-2); */
   border-radius: 14px;
 }
 
 .counting .box-3 {
 
-  background: var(--box-3);
+  /* background: var(--box-3); */
   border-radius: 14px;
 }
 
 .counting .box-4 {
 
-  background: var(--box-4);
+  /* background: var(--box-4); */
+  /* box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4); */
   border-radius: 14px;
 }
 
@@ -618,6 +619,23 @@ body.dark-theme {
   justify-content: center;
 }
 
+.parameter-check .box-1{
+  background: var(--box-1);
+  box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4);
+}
+.parameter-check .box-2{
+  background: var(--box-2);
+  box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4);
+}
+.parameter-check .box-3{
+  background: var(--box-3);
+  box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4);
+}
+.parameter-check .box-4{
+  background: var(--box-4);
+  box-shadow: 0px 8px 14px rgba(58, 53, 52, 0.4);
+}
+
 /* ================= Parameter =============== */
 
 .faqs__container {
@@ -672,7 +690,7 @@ body.dark-theme {
 
 .sol-img {
   position: relative;
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .sol-head {
@@ -680,6 +698,8 @@ body.dark-theme {
   right: 20%;
   /* top:50%; */
   /* bottom: 50%; */
+  color: #ecf0f5;
+  font-size: bold;
   margin-top: 35vh;
   text-align: center;
   font-size: 85px;
@@ -699,7 +719,16 @@ body.dark-theme {
   margin-left: auto;
   margin-right: auto;
 }
+/* =========================== Predication Water ====================== */
 
+.predication-water{
+  display: flex;
+  background-color: #005BEA;
+  width: 1100px;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
 
 /*=============== FOOTER ===============*/
 
@@ -829,115 +858,9 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 
-  .footer__content {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
-  }
-
-  .nav__menu {
-    padding: 1rem 1.5rem;
-  }
-
-  .home__container {
-    padding: 2rem 0 1rem;
-    row-gap: 6rem;
-  }
-
-  .home__description {
-    font-size: var(--small-font-size);
-  }
-
-  .home__images {
-    width: 248px;
-  }
-
-  .home__images img:nth-child(1) {
-    width: 180px;
-    top: -7rem
-  }
-
-  .home__images img:nth-child(2) {
-    width: 150px;
-    /* top: -7rem */
-  }
-
-  .new__img {
-    width: 230px;
-  }
-
-  .new__link {
-    padding-right: 0;
-  }
-
-  .collection__explore:nth-child(1),
-  .collection__explore:nth-child(2) {
-    position: initial;
-    grid-template-columns: 230px;
-    row-gap: 2rem;
-    margin: 0;
-  }
-
-  .collection__container {
-    height: initial;
-    row-gap: 3rem;
-  }
-
-  .collection__data-men {
-    margin-top: 0;
-  }
-
-  .collection__data-women {
-    margin-bottom: 0;
-  }
-
-  .products__card {
-    width: 230px;
-  }
-
-  .brand__container {
-    grid-template-columns: repeat(2, 100px);
-    row-gap: .5rem;
-  }
-}
 
 /* For medium devices */
-@media screen and (min-width: 576px) {
-  .nav__menu {
-    width: 342px;
-  }
-
-  .footer__content {
-    grid-template-columns: repeat(3, max-content);
-  }
-}
-
-@media screen and (min-width: 767px) {
-
-  .home__container,
-  .new__container {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: center;
-  }
-
-  .home__images {
-    margin-top: 6rem;
-  }
-
-  .brand__container {
-    grid-template-columns: repeat(4, max-content);
-  }
-
-  .footer__container {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between;
-  }
-}
 
 /* For large devices */
 
