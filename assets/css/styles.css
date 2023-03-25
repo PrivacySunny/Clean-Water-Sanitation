@@ -609,6 +609,7 @@ body.dark-theme {
   margin-top: 36px;
   justify-content: center;
 }
+
 .Water-portable .portable .form-1 {
   margin-top: 36px;
   display: flex;
@@ -616,7 +617,6 @@ body.dark-theme {
   /* width: 405px; */
   justify-content: center;
 }
-
 
 /* ================= Parameter =============== */
 
@@ -663,6 +663,41 @@ body.dark-theme {
   text-align: center;
   font-size: 24px;
   margin-top: 4rem;
+}
+
+/* ====================== Solution ========================== */
+.solution .solution-pages {
+  text-align: center;
+}
+
+.sol-img {
+  position: relative;
+  opacity: 0.3;
+}
+
+.sol-head {
+  position: absolute;
+  right: 20%;
+  /* top:50%; */
+  /* bottom: 50%; */
+  margin-top: 35vh;
+  text-align: center;
+  font-size: 85px;
+}
+
+.solution .x .xx .xxx img{
+  width: 95%;
+}
+.solution .xxxx {
+  width: 119%;
+}
+.solution .x .xx {
+  display: flex;
+  max-width: 1100px;
+  min-width: 0px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
